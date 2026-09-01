@@ -293,7 +293,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
-# paginate_path: /page:num/timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# paginate_path: /page:num/
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
@@ -339,7 +340,7 @@ tag_archive:
 #     tag: archive-taxonomy
 #   permalinks:
 #     category: /categories/:name/
-#     tag: /-tags/:name/
+#     tag: /tags/:name/
 
 # HTML Compression
 # - https://jch.penibelst.de/
